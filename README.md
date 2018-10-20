@@ -1,0 +1,1 @@
+A simple calculator of Redux.

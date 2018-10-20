@@ -25,6 +25,7 @@ export default class App extends Component {
     };
 
     render() {
+        //监听store中state的值，如果state改变，就会被触发
         store.subscribe(() => 
             this.setState({
                 count: store.getState()
